@@ -1,4 +1,4 @@
-# image_clipboard
+# flutter_image_clipboard
 
 A Flutter plugin that enables copying images to the clipboard on Android and IOS devices.
 
@@ -8,9 +8,9 @@ This plugin simplifies the process of copying images to the system clipboard in 
 
 
 <p align="center">
-  <img src="https://github.com/Numanshakir/image_clipboard/blob/master/example/assets/1.png?raw=true" width="20%" />
-  <img src="https://github.com/Numanshakir/image_clipboard/blob/master/example/assets/2.png?raw=true" width="20%" />
-  <img src="https://github.com/Numanshakir/image_clipboard/blob/master/example/assets/3.png?raw=true" width="20%" />
+  <img src="https://github.com/Numanshakir/flutter_image_clipboard/blob/master/example/assets/1.png?raw=true" width="20%" />
+  <img src="https://github.com/Numanshakir/flutter_image_clipboard/blob/master/example/assets/2.png?raw=true" width="20%" />
+  <img src="https://github.com/Numanshakir/flutter_image_clipboard/blob/master/example/assets/3.png?raw=true" width="20%" />
 </p>
  
 ## Features
@@ -21,16 +21,16 @@ This plugin simplifies the process of copying images to the system clipboard in 
 ## How to Use
 1. Install the package name to pubspec.yaml
    ```sh
-   image_clipboard: ^1.0.0
+   flutter_image_clipboard: ^1.0.0
    ```
 2. import the package to file
    ```sh
-   import  'package:image_clipboard/image_clipboard.dart';
+   import 'package:flutter_image_clipboard/flutter_image_clipboard.dart';
    ```
  3. Call the function
    ```sh
-   ImageClipboard  imageClipboard = ImageClipboard();
-   imageClipboard.copyImageToClipboard(imageFile);
+   FlutterImageClipboard flutterImageClipboard = FlutterImageClipboard();
+   flutterImageClipboard.copyImageToClipboard(imageFile);
    ```
 6. Run the App
 
@@ -47,7 +47,7 @@ Please note that this plugin is only available for Mobile.
 
 
 ## Contributing
-Contributions are welcome! If you find a bug or have a feature request, please open an issue on [Github](https://github.com/Numanshakir/).
+Contributions are welcome! If you find a bug or have a feature request, please open an issue on [Github](https://github.com/Numanshakir/flutter_image_clipboard/issues).
 
 
 ## License

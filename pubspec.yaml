@@ -1,7 +1,7 @@
 name: flutter_image_clipboard
 description: "A Flutter plugin that enables copying images to the clipboard on Android and IOS devices."
 version: 1.0.0
-homepage: https://github.com/Numanshakir/image_clipboard.git
+homepage: https://github.com/Numanshakir/flutter_image_clipboard.git
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
